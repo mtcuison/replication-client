@@ -1,0 +1,34 @@
+#Thu Aug 26 12:24:10 GMT+08:00 2010
+Product=IntegSys
+#Fri Mar 12 12:24:10 GMT+08:00 2010
+#GRider - Main App
+gRider-ClientID=GGC_BM014
+gRider-Password=m\u00D7\u00A3\u0090"\u00CE\u00D1r\u00B8\u0017>\u00A7
+gRider-ServerName=localhost
+gRider-UserName=_\u00C2
+gRider-Database=GGC_ISysDBF
+gRider-ComputerID=XX
+gRider-Port=3306
+gRider-sftpfldr=/srv1/repl/
+gRider-websrvcs=http://192.168.20.220:2007
+
+#IntegSys - GGC Integrated Systems 
+IntegSys-ClientID=GGC_BM014
+IntegSys-Password=m\u00D7\u00A3\u0090"\u00CE\u00D1r\u00B8\u0017>\u00A7
+IntegSys-ServerName=localhost
+IntegSys-MainServer=localhost
+IntegSys-UserName=_\u00C2
+IntegSys-Database=GGC_ISysDBF
+IntegSys-ComputerID=XX
+IntegSys-Port=3306
+
+#SFTP
+IntegSys-sftphost=192.168.20.220
+IntegSys-sftpport=1945
+IntegSys-sftpuser=K\u00D1\u00B5\u0090b\u00D2\u00CFr
+IntegSys-sftppass=\u001E\u00D7\u00E4\u0094}\u00C8\u00C8c\u00ED&\#\u00AC\u00D6,m\u00CF
+IntegSys-sftpfldr=/srv1/repl/
+
+#Web Services
+IntegSys-websrvcs=http://192.168.20.220:2007
+

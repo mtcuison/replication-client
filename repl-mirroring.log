@@ -1,0 +1,18 @@
+Apr 21, 2021 11:01:53 AM org.rmj.replication.utility.LogWrapper severe
+SEVERE: M0012100000000000001(1) - Transaction given does not exist.
+Apr 21, 2021 1:29:14 PM org.rmj.replication.utility.LogWrapper info
+INFO: M0012100000000000001(1) - uploaded successfully.
+Apr 21, 2021 1:30:28 PM org.rmj.replication.utility.LogWrapper severe
+SEVERE: M0012100000000000001(1) - Before start of result set
+Apr 21, 2021 4:04:46 PM org.rmj.replication.utility.LogWrapper severe
+SEVERE: M0012100000000000001(1) - {"code":1,"message":"Parse Exception: null"}
+Apr 21, 2021 4:05:10 PM org.rmj.replication.utility.LogWrapper info
+INFO: M0012100000000000001(1) - uploaded successfully.
+Apr 21, 2021 4:05:10 PM org.rmj.replication.utility.LogWrapper info
+INFO: M0012100000000000002(1) - uploaded successfully.
+Apr 21, 2021 4:22:55 PM org.rmj.replication.utility.LogWrapper info
+INFO: M0012100000000000001(1) - uploaded successfully.
+Apr 21, 2021 4:24:18 PM org.rmj.replication.utility.LogWrapper info
+INFO: M0012100000000000001(1) - uploaded successfully.
+Apr 21, 2021 4:24:32 PM org.rmj.replication.utility.LogWrapper info
+INFO: M0012100000000000002(1) - uploaded successfully.

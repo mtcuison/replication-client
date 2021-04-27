@@ -1,0 +1,1234 @@
+Nov 12, 2014 4:01:23 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: IOException error detected.
+java.io.FileNotFoundException: c:\GGC_Systemsrepl\download\zipped\M00120141112151238M028.json.tar.gz (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at java.io.FileInputStream.<init>(FileInputStream.java:101)
+	at org.rmj.Replication.utility.MiscReplUtil.untar(MiscReplUtil.java:101)
+	at org.rmj.Replication.client.Import.untar_json(Import.java:146)
+	at org.rmj.Replication.client.Import.main(Import.java:37)
+
+Nov 12, 2014 4:18:25 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sBranchCd = 'M0W1'  sStatemnt = 'UPDATE MC_Transfer_Master SET  cReceived = ''1'' at line 1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:123)
+	at org.rmj.Replication.client.Import.main(Import.java:45)
+
+Nov 12, 2014 4:19:00 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sBranchCd = 'M0W1'  sStatemnt = 'UPDATE MC_Transfer_Master SET  cReceived = ''1'' at line 1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:124)
+	at org.rmj.Replication.client.Import.main(Import.java:45)
+
+Nov 12, 2014 4:22:21 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'cCallStat' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:107)
+	at org.rmj.Replication.client.Import.main(Import.java:45)
+
+Nov 20, 2014 11:06:15 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M075120122' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:107)
+	at org.rmj.Replication.client.Import.main(Import.java:45)
+
+Nov 20, 2014 11:25:55 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M075120122' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:106)
+	at org.rmj.Replication.client.Import.main(Import.java:45)
+
+Nov 20, 2014 11:38:20 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M075120122' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 11:43:26 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M075120122' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 11:45:29 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M075120122' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 11:45:32 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M067120058' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 11:45:32 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M075130151' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 11:45:32 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M075140068' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 11:45:32 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M075140116' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 11:45:32 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M075140117' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 11:45:33 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M075130152' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 11:45:59 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M027130085' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 11:45:59 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M034100033' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 11:45:59 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M027140048' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 11:46:06 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M017120136' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 11:46:08 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M065120015' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 11:46:12 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M029120019' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 11:46:25 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: BIGINT UNSIGNED value is out of range in '(`GGC_ISysDBF`.`Employee_Master001`.`nLveCredt` - 2)'
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 11:59:54 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'sClassIDx' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 11:59:54 AM org.rmj.Replication.utility.LogWrapper info
+INFO: INSERT INTO TLM_Client SET  sClientID = 'M07714001214', sClassIDx = '0001', cSourceCd = 'MC' ON DUPLICATE KEY UPDATE  sClassIDx = '0001', sRemarksx = '', dLastCall = NULL
+Nov 20, 2014 12:05:13 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:05:13 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 789000, nLedgerNo = '4874', dModified = '2014-11-19 17:00:08' WHERE sClientID = 'M00105000001'
+Nov 20, 2014 12:05:56 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:05:56 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 789000, nLedgerNo = '4874', dModified = '2014-11-19 17:00:08' WHERE sClientID = 'M00105000001'
+Nov 20, 2014 12:06:33 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:33 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 789000, nLedgerNo = '4874', dModified = '2014-11-19 17:00:08' WHERE sClientID = 'M00105000001'
+Nov 20, 2014 12:06:42 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:42 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 789000, nLedgerNo = '4869', dModified = '2014-11-19 16:25:50' WHERE sClientID = 'M00105000001'
+Nov 20, 2014 12:06:42 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:42 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 789000, nLedgerNo = '4870', dModified = '2014-11-19 16:27:01' WHERE sClientID = 'M00105000001'
+Nov 20, 2014 12:06:42 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:42 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 789000, nLedgerNo = '4871', dModified = '2014-11-19 16:28:28' WHERE sClientID = 'M00105000001'
+Nov 20, 2014 12:06:44 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:44 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 789000, nLedgerNo = '4872', dModified = '2014-11-19 16:34:39' WHERE sClientID = 'M00105000001'
+Nov 20, 2014 12:06:44 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:44 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 789000, nLedgerNo = '4873', dModified = '2014-11-19 16:35:47' WHERE sClientID = 'M00105000001'
+Nov 20, 2014 12:06:44 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:44 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 669000, nLedgerNo = '1371', dModified = '2014-11-19 16:36:58' WHERE sClientID = 'M0W107000004'
+Nov 20, 2014 12:06:44 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:44 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 602100, nLedgerNo = '1372', dModified = '2014-11-19 16:38:22' WHERE sClientID = 'M0W107000004'
+Nov 20, 2014 12:06:45 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:45 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 555200, nLedgerNo = '1373', dModified = '2014-11-19 16:39:36' WHERE sClientID = 'M0W107000004'
+Nov 20, 2014 12:06:45 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:45 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 602100, nLedgerNo = '1374', dModified = '2014-11-19 16:40:43' WHERE sClientID = 'M0W107000004'
+Nov 20, 2014 12:06:45 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: BIGINT UNSIGNED value is out of range in '(`GGC_ISysDBF`.`Employee_Master001`.`nLveCredt` - 1)'
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:45 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE Employee_Master001 SET  nLveCredt = nLveCredt - 1 WHERE sEmployID = 'M00113001260'
+Nov 20, 2014 12:06:45 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: BIGINT UNSIGNED value is out of range in '(`GGC_ISysDBF`.`Employee_Master001`.`nLveCredt` - 1)'
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:45 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE Employee_Master001 SET  nLveCredt = nLveCredt - 1 WHERE sEmployID = 'M00113001260'
+Nov 20, 2014 12:06:46 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:46 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 669000, nLedgerNo = '1375', dModified = '2014-11-19 16:41:52' WHERE sClientID = 'M0W107000004'
+Nov 20, 2014 12:06:46 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:46 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 401400, nLedgerNo = '1376', dModified = '2014-11-19 16:43:11' WHERE sClientID = 'M0W107000004'
+Nov 20, 2014 12:06:46 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:46 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 669000, nLedgerNo = '1377', dModified = '2014-11-19 16:45:16' WHERE sClientID = 'M0W107000004'
+Nov 20, 2014 12:06:48 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M058120115' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:48 PM org.rmj.Replication.utility.LogWrapper info
+INFO: INSERT INTO LR_Collection_Unit SET  sAcctNmbr = 'M058120115', sBranchCd = '', dTransact = '2014-11-15 00:00:00', cCollUnit = '0', sInCharge = '', dAppointx = '1990-01-01 00:00:00', cApntUnit = ' ', dDueUntil = '2014-11-28 00:00:00', dScheduld = NULL, cCollStat = '0', nPriority = 1, nNoSchedx = 0, sModified = 'çt\\øE§ZÖ', dModified = '2014-11-17 11:20:33'
+Nov 20, 2014 12:06:49 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: BIGINT UNSIGNED value is out of range in '(`GGC_ISysDBF`.`Employee_Master001`.`nLveCredt` - 1)'
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:49 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE Employee_Master001 SET  nLveCredt = nLveCredt - 1 WHERE sEmployID = 'M05812000381'
+Nov 20, 2014 12:06:54 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'C0W113064870-C001-CPSl-C00114000005' for key 'sSerialID'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:54 PM org.rmj.Replication.utility.LogWrapper info
+INFO: INSERT INTO CP_Inventory_Serial_Ledger SET  sSerialID = 'C0W113064870', sBranchCd = 'C001', dTransact = '2014-01-02 00:00:00', sSourceCd = 'CPSl', sSourceNo = 'C00114000005', dModified = '2014-01-02 14:38:52'
+
+Nov 20, 2014 12:06:54 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'C0W213000196-C001-C00114000005-CPSl' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:54 PM org.rmj.Replication.utility.LogWrapper info
+INFO: INSERT INTO CP_Inventory_Ledger SET  sStockIDx = 'C0W213000196', nLedgerNo = '000029', sBranchCd = 'C001', dTransact = '2014-01-02 00:00:00', sSourceCd = 'CPSl', sSourceNo = 'C00114000005', nQtyInxxx = 0, nQtyOutxx = 1, nQtyIssue = 0, nQtyOrder = 0, nQtyOnHnd = 0, cUnitType = '1', dModified = '2014-01-02 14:38:52'
+
+Nov 20, 2014 12:06:57 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:57 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 242000, nLedgerNo = '0931', dModified = '2014-11-19 16:16:53' WHERE sClientID = 'M0W107000003'
+Nov 20, 2014 12:06:57 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:57 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 69800, nLedgerNo = '4863', dModified = '2014-11-19 16:17:58' WHERE sClientID = 'M00105000001'
+Nov 20, 2014 12:06:58 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:58 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 789000, nLedgerNo = '4864', dModified = '2014-11-19 16:19:32' WHERE sClientID = 'M00105000001'
+Nov 20, 2014 12:06:58 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:58 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 789000, nLedgerNo = '4865', dModified = '2014-11-19 16:20:49' WHERE sClientID = 'M00105000001'
+Nov 20, 2014 12:06:58 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:58 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 789000, nLedgerNo = '4866', dModified = '2014-11-19 16:22:06' WHERE sClientID = 'M00105000001'
+Nov 20, 2014 12:06:58 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:58 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 645000, nLedgerNo = '4867', dModified = '2014-11-19 16:23:19' WHERE sClientID = 'M00105000001'
+Nov 20, 2014 12:06:58 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:06:58 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 698000, nLedgerNo = '4868', dModified = '2014-11-19 16:24:25' WHERE sClientID = 'M00105000001'
+Nov 20, 2014 12:07:05 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: BIGINT UNSIGNED value is out of range in '(`GGC_ISysDBF`.`Employee_Master001`.`nLveCredt` - 1)'
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:07:05 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE Employee_Master001 SET  nLveCredt = nLveCredt - 1 WHERE sEmployID = 'M00112001999'
+Nov 20, 2014 12:07:05 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: BIGINT UNSIGNED value is out of range in '(`GGC_ISysDBF`.`Employee_Master001`.`nLveCredt` - 1)'
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:07:05 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE Employee_Master001 SET  nLveCredt = nLveCredt - 1 WHERE sEmployID = 'M00112001999'
+Nov 20, 2014 12:07:11 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: BIGINT UNSIGNED value is out of range in '(`GGC_ISysDBF`.`Employee_Master001`.`nLveCredt` - 1)'
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:07:11 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE Employee_Master001 SET  nLveCredt = nLveCredt - 1 WHERE sEmployID = 'M00113001091'
+Nov 20, 2014 12:07:17 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M074120087' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:07:17 PM org.rmj.Replication.utility.LogWrapper info
+INFO: INSERT INTO LR_Collection_Unit SET  sAcctNmbr = 'M074120087', sBranchCd = '', dTransact = '2014-11-18 00:00:00', cCollUnit = '0', sInCharge = '', dAppointx = '2014-11-25 00:00:00', cApntUnit = '1', dDueUntil = '2014-12-18 00:00:00', dScheduld = NULL, cCollStat = '0', nPriority = 1, nNoSchedx = 0, sModified = 'çt^ùE§ZÔ', dModified = '2014-11-19 14:23:48'
+Nov 20, 2014 12:07:20 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M03014000164' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:07:20 PM org.rmj.Replication.utility.LogWrapper info
+INFO: INSERT INTO MC_Insurance SET  sInsurNox = 'M03014000164', sReferNox = 'M03014000164', sSourceCD = 'Sl', sClientID = 'M03014000751', sCoCltID1 = '', sCoCltID2 = '', sSerialID = 'M0W314001562', dTransact = '2014-11-19 00:00:00', sInsurIDx = NULL, sPolicyNo = '', sInsTypID = '0106', cRegisTyp = '1', dInsurFrm = NULL, dInsurTru = NULL, nPremiumx = 0, nAmtPaidX = 0, sBLTFleNo = NULL, cTranStat = '0', cRecvCOCx = '0', cRegisFrm = '1', sModified = 'çtZûE§ZÖ', dModified = '2014-11-19 14:21:14'
+Nov 20, 2014 12:07:20 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M03014000162' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:07:20 PM org.rmj.Replication.utility.LogWrapper info
+INFO: INSERT INTO MC_Registration SET  sTransNox = 'M03014000162', dPurchase = '2014-11-19 00:00:00', sReferNox = 'M03014000164', sSourceCD = 'SRg', sSerialID = 'M0W314001562', sClientID = 'M03014000751', sCoCltID1 = '', sCoCltID2 = '', sLTOIDxxx = NULL, dRegister = NULL, cRegisTyp = '1', nRegisAmt = 2800, sORNoxxxx = '2', sCRENoxxx = '', sCRNoxxxx = '', sRegORNox = '', sStickrNo = '', sModified = 'çtZûE§ZÖ', dModified = '2014-11-19 14:21:14'
+Nov 20, 2014 12:07:20 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M03014000162' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:07:21 PM org.rmj.Replication.utility.LogWrapper info
+INFO: INSERT INTO MC_Registration_Expense SET  sTransNox = 'M03014000162', sReferNox = 'M03014000162', sRegORNox = '', sStickrNo = '', cMotorNew = '1', cInsurPrc = ' ', nInsurAmt = 0, cClearPrc = ' ', nClearAmt = 0, nClearSOP = 0, cValidPrc = ' ', nValidAmt = 0, nValidSOP = 0, cRegisPrc = ' ', nRegisAmt = 0, nRegisSOP = 0, cPlatePrc = ' ', nPlateSOP = 0, dModified = '2014-11-19 14:21:14'
+Nov 20, 2014 12:07:21 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M03014000176' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:07:21 PM org.rmj.Replication.utility.LogWrapper info
+INFO: INSERT INTO MC_LTO_Pool SET  sTransNox = 'M03014000176', sReferNox = 'M03014000164', sSerialID = 'M0W314001562', dTransact = '2014-11-19 00:00:00', sSourceCd = 'SRg', nAmtPaidx = 2800, cCollectd = '0', sCollNoxx = '', dModified = '2014-11-19 14:21:14'
+Nov 20, 2014 12:07:21 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M030140098' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:07:21 PM org.rmj.Replication.utility.LogWrapper info
+INFO: INSERT INTO MC_AR_Master SET  sAcctNmbr = 'M030140098', sBranchCd = 'M030', sClientID = 'M03014000751', sApplicNo = 'M03014000120', sRouteIDx = 'M001050005', sRemarksx = '', sExAcctNo = '', sSerialID = 'M0W314001562', cLoanType = '0', dPurchase = '2014-11-19 00:00:00', nGrossPrc = 92920, nPNValuex = 88920, nDownPaym = 4000, nCashBalx = 0, dFirstPay = '2014-12-28 00:00:00', nAcctTerm = 36, dDueDatex = '2017-11-28 00:00:00', nMonAmort = 2470, nPenaltyx = 0, nRebatesx = 200, nLastPaym = 0, dLastPaym = '2014-11-19 00:00:00', nPaymTotl = 0, nRebTotlx = 0, nDebtTotl = 0, nCredTotl = 0, nAmtDuexx = 0, nABalance = 88920, nDownTotl = 4000, nCashTotl = 0, nDelayAvg = 0, cRatingxx = ' ', cAcctstat = '0', cMotorNew = '1', cActivexx = '1', nLedgerNo = '1', sCoCltID1 = '', sCoCltID2 = '', sModified = 'çtZûE§ZÖ', dModified = '2014-11-19 14:21:14'
+Nov 20, 2014 12:07:21 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M022110012' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:07:21 PM org.rmj.Replication.utility.LogWrapper info
+INFO: INSERT INTO LR_Collection_Unit SET  sAcctNmbr = 'M022110012', sBranchCd = '', dTransact = '2014-11-18 00:00:00', cCollUnit = '0', sInCharge = '', dAppointx = '2014-11-19 00:00:00', cApntUnit = '1', dDueUntil = '2014-12-19 00:00:00', dScheduld = NULL, cCollStat = '0', nPriority = 1, nNoSchedx = 0, sModified = 'çtYùE§ZÖ', dModified = '2014-11-19 14:29:15'
+Nov 20, 2014 12:07:22 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'nABalance' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:07:22 PM org.rmj.Replication.utility.LogWrapper info
+INFO: UPDATE MC_Supplier SET  nABalance = nABalance + 52500, nLedgerNo = '0930', dModified = '2014-11-19 14:39:44' WHERE sClientID = 'M0W107000003'
+Nov 20, 2014 12:07:27 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M069120022' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:07:27 PM org.rmj.Replication.utility.LogWrapper info
+INFO: INSERT INTO LR_Collection_Unit SET  sAcctNmbr = 'M069120022', sBranchCd = '', dTransact = '2014-11-14 00:00:00', cCollUnit = '0', sInCharge = '', dAppointx = '2014-11-18 00:00:00', cApntUnit = '1', dDueUntil = '2014-12-08 00:00:00', dScheduld = NULL, cCollStat = '0', nPriority = 1, nNoSchedx = 0, sModified = 'çt^øE§ZÑ', dModified = '2014-11-14 14:29:11'
+Nov 20, 2014 12:07:27 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M076130041' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:07:27 PM org.rmj.Replication.utility.LogWrapper info
+INFO: INSERT INTO LR_Collection_Unit SET  sAcctNmbr = 'M076130041', sBranchCd = '', dTransact = '2014-11-15 00:00:00', cCollUnit = '0', sInCharge = '', dAppointx = '2014-11-28 00:00:00', cApntUnit = '1', dDueUntil = '2014-11-18 00:00:00', dScheduld = NULL, cCollStat = '0', nPriority = 1, nNoSchedx = 0, sModified = 'çt^ùE§ZÕ', dModified = '2014-11-15 16:36:33'
+Nov 20, 2014 12:07:30 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M008130221' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:07:30 PM org.rmj.Replication.utility.LogWrapper info
+INFO: INSERT INTO LR_Collection_Unit SET  sAcctNmbr = 'M008130221', sBranchCd = '', dTransact = '2014-11-17 00:00:00', cCollUnit = '0', sInCharge = '', dAppointx = '2014-11-21 00:00:00', cApntUnit = '1', dDueUntil = '2014-11-28 00:00:00', dScheduld = NULL, cCollStat = '0', nPriority = 1, nNoSchedx = 0, sModified = 'çt]ùE§ZÖ', dModified = '2014-11-18 11:35:06'
+Nov 20, 2014 12:07:49 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M069120022' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:07:49 PM org.rmj.Replication.utility.LogWrapper info
+INFO: INSERT INTO LR_Collection_Unit SET  sAcctNmbr = 'M069120022', sBranchCd = '', dTransact = '2014-11-14 00:00:00', cCollUnit = '0', sInCharge = '', dAppointx = '2014-11-18 00:00:00', cApntUnit = '1', dDueUntil = '2014-12-08 00:00:00', dScheduld = NULL, cCollStat = '0', nPriority = 1, nNoSchedx = 0, sModified = 'çt^øE§ZÑ', dModified = '2014-11-14 14:29:11'
+Nov 20, 2014 12:07:50 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M076130041' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:07:50 PM org.rmj.Replication.utility.LogWrapper info
+INFO: INSERT INTO LR_Collection_Unit SET  sAcctNmbr = 'M076130041', sBranchCd = '', dTransact = '2014-11-15 00:00:00', cCollUnit = '0', sInCharge = '', dAppointx = '2014-11-28 00:00:00', cApntUnit = '1', dDueUntil = '2014-11-18 00:00:00', dScheduld = NULL, cCollStat = '0', nPriority = 1, nNoSchedx = 0, sModified = 'çt^ùE§ZÕ', dModified = '2014-11-15 16:36:33'
+Nov 20, 2014 12:07:53 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M008130221' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.client.Import.import_file(Import.java:110)
+	at org.rmj.Replication.client.Import.main(Import.java:47)
+
+Nov 20, 2014 12:07:53 PM org.rmj.Replication.utility.LogWrapper info
+INFO: INSERT INTO LR_Collection_Unit SET  sAcctNmbr = 'M008130221', sBranchCd = '', dTransact = '2014-11-17 00:00:00', cCollUnit = '0', sInCharge = '', dAppointx = '2014-11-21 00:00:00', cApntUnit = '1', dDueUntil = '2014-11-28 00:00:00', dScheduld = NULL, cCollStat = '0', nPriority = 1, nNoSchedx = 0, sModified = 'çt]ùE§ZÖ', dModified = '2014-11-18 11:35:06'
