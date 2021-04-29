@@ -56,7 +56,7 @@ public class RequestToken {
             case 0:
                 headers.put("g-api-id", "IntegSys");
                 headers.put("g-api-client", "XPI_GX001");    
-                headers.put("g-api-user", "GAP0191153");    
+                headers.put("g-api-user", "GAP0190004");    
                 break;
             default:
                 System.out.println("RequestToken <Product ID> <Client ID> <User ID>");
