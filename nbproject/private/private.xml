@@ -19,5 +19,14 @@
             <file>file:/D:/GMC%20SEG%20Folder%20-%20Java/replication-client/src/org/rmj/replication/client/SendBio.java</file>
         </group>
         <group name="Android Libs"/>
+        <group name="integsys-engr">
+            <file>file:/D:/Guanzon/GMC%20SEG%20Folder%20-%20Java/replication-client/test/testClass/testClass.java</file>
+            <file>file:/D:/Guanzon/GMC%20SEG%20Folder%20-%20Java/replication-client/test/testClass/APIParam.java</file>
+            <file>file:/D:/Guanzon/GMC%20SEG%20Folder%20-%20Java/replication-client/src/org/rmj/mailer/Create4MailJSON.java</file>
+            <file>file:/D:/Guanzon/GMC%20SEG%20Folder%20-%20Java/replication-client/src/org/rmj/mailer/SendMail.java</file>
+            <file>file:/D:/Guanzon/GMC%20SEG%20Folder%20-%20Java/replication-client/test/testClass/testAPIRecalc.java</file>
+            <file>file:/D:/Guanzon/GMC%20SEG%20Folder%20-%20Java/replication-client/test/testClass/testDCPExport.java</file>
+            <file>file:/D:/Guanzon/GMC%20SEG%20Folder%20-%20Java/replication-client/test/testClass/testSendRawMail.java</file>
+        </group>
     </open-files>
 </project-private>
